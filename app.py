@@ -57,7 +57,7 @@ def get_connection():
         return mysql.connector.connect(
             host=os.environ.get("DB_HOST", "sql5.freesqldatabase.com"),
             user=os.environ.get("DB_USER", "sql5782627"),
-            password=os.environ.get("DB_PASS", "Please wait"),
+            password=os.environ.get("DB_PASS", "l9JXWgGqPz"),
             database=os.environ.get("DB_NAME", "sql5782627")
         )
     except mysql.connector.Error as e:
