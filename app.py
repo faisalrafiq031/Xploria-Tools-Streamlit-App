@@ -55,10 +55,10 @@ st.markdown("""
 def get_connection():
     try:
         return mysql.connector.connect(
-            host=os.environ.get("DB_HOST", "db4free.net"),
-            user=os.environ.get("DB_USER", "faisal"),
-            password=os.environ.get("DB_PASS", "Faisal$123"),
-            database=os.environ.get("DB_NAME", "faisal_data")
+            host=os.environ.get("DB_HOST", "sql5.freesqldatabase.com"),
+            user=os.environ.get("DB_USER", "sql5782627"),
+            password=os.environ.get("DB_PASS", "Please wait"),
+            database=os.environ.get("DB_NAME", "sql5782627")
         )
     except mysql.connector.Error as e:
         st.error(f"Database connection error: {e}")
